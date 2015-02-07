@@ -1,6 +1,6 @@
 TODO LIST
 
-As of FEB 06 5:30pm
+As of FEB 07 12:41pm
 
 
 
@@ -10,7 +10,7 @@ wap fai la mon chai
 *** roulettetable class
 		-array for euro 	(from 0 to 26)
 		-array for american	(from 0 to 2) [but why 2? get rekt]
-		-From driver, access boolean isAmerican (to determine which table has been chosen)
+
 		-util.random choose a number
 			-limited (from 0 to size of array)
 			-getter for this number?
@@ -45,4 +45,5 @@ wap fai la mon chai
 *** Driver class
 		-choose whether to generate US table or euro table (can hardcode?)
 			-boolean isAmerican
+			-use an if else depending on the result
 		-end after 10 rounds or when the dealer decides to stop
