@@ -3,33 +3,33 @@ package comp249as2;
 import java.util.*;
 
 public class Player {
-	
+
 	Scanner myKeyboard = new Scanner (System.in);
-	
+
 	int[] bets = new int[5];
 	int arraySize;
-	
+
 	public void setarraySize(int arraySize) {
 		this.arraySize = arraySize;
 	} 
 
 	public void setBets()
 	{
-	for (int i = 0; i < bets.length;i++)
-	{
-		bets[i] = -1;
+		for (int i = 0; i < bets.length;i++)
+		{
+			bets[i] = -1;
+		}
 	}
-	}
-	
+
 	public void showBets()
 	{
 		for (int i = 0; i < bets.length;i++){
 			System.out.print(bets[i] + "\n");
 		}
- 
+
 	}
-	
-	
+
+
 	public void amountBets()
 	{
 		int a = 0;
@@ -40,12 +40,12 @@ public class Player {
 		}
 		arraySize = a;
 	}
-	
-	
-	
+
+
+
 	public void playerBets() 
 	{
-	int[] temp = new int [6];
+		int[] temp = new int [6];
 		System.out.print("Input your bet(s)");
 		temp[0] = myKeyboard.nextInt();
 		temp[1] = myKeyboard.nextInt();
@@ -63,14 +63,14 @@ public class Player {
 		{
 			bets[b] = temp [b];
 		}
-		
+
 	}
-	
-	
-	
-	
-	
-	}
-	
+
+
+
+
+
+}
+
 
 
