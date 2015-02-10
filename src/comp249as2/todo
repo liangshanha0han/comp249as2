@@ -1,8 +1,8 @@
 TODO LIST
 
-As of FEB 07 12:41pm
+As of FEB 07 1:46pm
 
-lelfgt
+roulette --> player --> dealer
 
 
 wap fai la mon chai
@@ -31,18 +31,21 @@ wap fai la mon chai
 			-add size of bets array
 		
 		
-*** Dealer class
-		-turn wheel
+*** Winnings class extends player
+		
 		-calculate winning
 			-access data from player (array of numbers betted on)
 			-see instructions for algorithm
 			-make some .equals()
 		-make announcement
 			-winning number (access the generated random number in table class)
-			-who wins what	(access
+			-who wins	(access them .equals)
 		
 		
 *** Driver class
+		-turn wheel
 		-choose whether to generate US table or euro table (can hardcode?)
 			-boolean isAmerican
 		-end after 10 rounds or when the dealer decides to stop
+			-9 round
+			-10th round is a do while, contrl by boolean continue in dealer class
